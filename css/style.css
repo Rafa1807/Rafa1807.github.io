@@ -1,0 +1,388 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-color: black;
+    width: 90%;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+ul {
+    margin: 0;
+}
+
+li {
+    margin-top: 1%;
+    list-style: none;
+    float: right;
+    font-family: 'Unica One', cursive;
+    font-size: 20px;
+    color: white;
+    margin-right: 30px;
+
+}
+li:hover {
+    border-bottom:1px solid rgba(255, 255, 240, 0.516);
+}
+
+#rafa {
+    margin-left: 100px;
+    font-family: 'Unica One', cursive;
+    font-size: 25px;
+    color: #5FF4D4;
+  
+}
+
+#container {
+    width: 90%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    background-image: url(../img/backgrounddark.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#background-keyboard {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 550px;
+    filter: brightness(30%);
+
+}
+
+#container-perfil {
+    display: block;
+    margin: auto;
+    width: 16%;
+    height: 250px;
+    background-color: #28272B;
+    color: white;
+    align-items: center;
+    
+}
+.rafaelribeiro {
+    padding: 30px;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: -10px;
+    font-family: 'Unica One', cursive;
+    
+}
+.rafaelribeiro2 {
+    margin-top: 110px;
+    text-align: center;
+    font-size: 12px;
+}
+#image-perfil {
+    width: 15%;
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid #197561;
+    box-shadow: 0 0 0 20px #19756179;
+    align-items: center;
+    transform: translateX(-50%);
+    top: 120px;
+    
+}
+
+#facebook {
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+#instagram, #twitter, #git, #linkedim {
+    font-size: 30px;
+    margin-left: 8px;
+    
+}
+a {
+   color: inherit; 
+}
+#containeraboutme {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+}
+
+#aboutme {
+    width: 50%;
+    height: 200px;
+    background-color: #28272B;
+    color: white;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    
+}
+#textaboutme {
+    width: 80%;
+
+}
+
+
+#skills {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    background-color: #28272B;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    z-index: 0;
+}
+#skills > img {
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px
+    
+}
+#lineabotme{
+    height: 100px;
+    background-color: white;
+    width: 2px;
+    position: absolute;
+    text-align: center;
+    margin-left: 45%;
+
+}
+.line {
+    width: 100%;
+    height: 12px;
+    margin:auto;
+    display: block;
+    background-color: #197561;
+    
+
+}
+#containercv {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/backgrounddark.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#downloadcv {
+    display: block;
+    margin: auto;
+    width: 40%;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    background-color: #28272B;
+    padding: 50px;
+    text-align: center;
+
+}
+#logocv {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 80px;
+ 
+}
+
+button {
+    border-radius: 10px;
+    width: 120px;
+    color: white;
+    height: 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-top: 20px;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+#containerportfolio {
+    width: 90%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #28272B;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+}
+#portfolio {
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    padding: 0 30px 0 30px;
+}
+
+#autovidros {
+    width: 300px;
+    margin-top: 90px;
+    display: inline-block;
+}
+#autovidros > img {
+    width: 100%;
+}
+
+#myportfolio {
+    width: 300px;
+    
+    margin-top: 90px;
+    display: inline-block;
+   
+}
+#myportfolio > img {
+    width: 100%;
+    margin-top: 10px;
+}
+h4 {
+    font-family: 'Unica One', cursive;;
+}
+.lock {
+    background-color: #197561;
+    border: inherit;
+    width: 90px;
+}
+footer {
+    display: block;
+    padding: 5px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.516);
+    font-size: 12px;
+}
+
+
+@media (max-width: 1024px) {
+
+#background-keyboard{
+    height: 365px;
+}
+
+#container-perfil {
+height: 150px;
+width: 22%;
+
+}
+.rafaelribeiro {
+    padding: 0;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+.rafaelribeiro2 {
+    padding: 0;
+    margin-bottom: 3px;
+}
+}
+
+@media (max-width: 800px) {
+
+header {
+   height: 35px;
+   width: 100%;
+   
+}
+li {
+    font-size: 14px;
+    margin-top: 3%;
+    margin-right: 16px;
+}
+#rafa {
+    font-size: 14px;
+    margin-top: -5px;
+    margin-left: 30px;
+}
+#container {
+    width: 100%;
+}
+#background-keyboard{
+    height: 200px;
+}
+#image-perfil {
+    width: 25%;
+    top: 70px;
+}
+#container-perfil {
+    width: 33%;
+    height: 120px;
+}
+.rafaelribeiro {
+    font-size: 25px;
+}
+#facebook {
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+#instagram, #twitter, #git, #linkedim {
+    font-size: 20px;
+    margin-left: 8px;
+    
+}
+#containeraboutme {
+    width: 100%;
+}
+#textaboutme > h1 {
+    font-size: 20px;
+}
+#textaboutme > span {
+    font-size: 10px;
+}
+#skills > h1 {
+    font-size: 20px;
+}
+#skills > img {
+    width: 45px;
+}
+#lineabotme {
+    margin-left: 50%;
+}
+#containercv {
+    width: 100%;
+    height: 224px;
+}
+#downloadcv {
+    height: 200px;
+    padding: 2px;
+    width: 30%;
+}
+#logocv {
+    margin-top: 16px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#downloadcv > span {
+    font-size: 13px;
+}
+button {
+    width: 80px;
+    font-size: 12px;
+    height: 30px;
+    margin-top: 6px;
+}
+#containerportfolio {
+    width: 100%;
+}
+#textportfolio {
+    padding-top: 20px;
+}
+#portfolio {
+    justify-content: center;
+}
+}
