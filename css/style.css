@@ -335,8 +335,9 @@ li {
 }
 #rafa {
     font-size: 14px;
-    margin-top: -5px;
+    margin-top: 0px;
     margin-left: 30px;
+    padding-top: 9px;
 }
 #container {
     width: 100%;
@@ -349,36 +350,45 @@ li {
     top: 70px;
 }
 #container-perfil {
-    width: 33%;
+    width: 40%;
     height: 120px;
 }
 .rafaelribeiro {
-    font-size: 25px;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.rafaelribeiro2 {
+    margin-top: 0px;
+    font-size: 10px;
 }
 #facebook {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
 
 }
 #instagram, #twitter, #git, #linkedim {
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 8px;
     
 }
 #containeraboutme {
     width: 100%;
 }
+#textaboutme {
+    width: 95%;
+}
 #textaboutme > h1 {
     font-size: 20px;
 }
 #textaboutme > span {
-    font-size: 10px;
+    font-size: 9px;
+    line-height: 0.1;
 }
 #skills > h1 {
     font-size: 20px;
 }
 #skills > img {
-    width: 45px;
+    width: 35px;
 }
 #lineabotme {
     margin-left: 50%;
@@ -390,7 +400,7 @@ li {
 #downloadcv {
     height: 200px;
     padding: 2px;
-    width: 30%;
+    width: 47%;
 }
 #logocv {
     margin-top: 16px;
@@ -410,9 +420,12 @@ button {
     width: 100%;
 }
 #textportfolio {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 #portfolio {
     justify-content: center;
+}
+#autovidros {
+    margin-top: 40px;
 }
 }
