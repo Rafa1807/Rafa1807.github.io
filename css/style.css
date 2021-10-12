@@ -219,6 +219,10 @@ button:hover {
     background-color: white;
     color: black;
 }
+#downloadcv > a {
+    width: 120px;
+    height: 40px;
+}
 #containerportfolio {
     width: 90%;
     display: block;
