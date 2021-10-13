@@ -11,8 +11,7 @@
 </div>
 
 # My Psersonal site
-
-
+<br>
 <img src="./assets/apresentacao-portifolio.gif" alt="Apresentação">
 
 <br>
@@ -27,11 +26,17 @@
 
 <br>
 
+
 # TECHNOLOGIES
+
 
 * HTML
 * CSS
 * JAVASCRIPT
+
+
+
+
 
 ## Thanks for viewing my project.
 
