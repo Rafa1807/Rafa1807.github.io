@@ -11,17 +11,32 @@
 </div>
 
 # My Psersonal site
-
-
+<br>
 <img src="./assets/apresentacao-portifolio.gif" alt="Apresentação">
 
+<br>
+<br>
+<br>
+
+# MOBILE VERSION
+<br>
+<br>
+
+<img src="./assets/version-mobile1.png">         <img src="./assets/version-mobile2.png">
+
+<br>
 
 
 # TECHNOLOGIES
 
+
 * HTML
 * CSS
 * JAVASCRIPT
+
+
+
+
 
 ## Thanks for viewing my project.
 
